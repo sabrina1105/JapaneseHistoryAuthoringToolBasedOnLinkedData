@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:3d92b870-2a03-4860-afdb-e3fed3615a9e</dc:identifier>
+    <dc:title>アサガオ</dc:title>
+    <dc:creator opf:role="aut">戦国</dc:creator>
+    <dc:language>ja</dc:language>
+    <dc:date opf:event="modification">2016-08-08</dc:date>
+    <meta content="0.7.2" name="Sigil version" />
+    <meta name="cover" content="アサガオ.jpg" />
+  </metadata>
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Text/Section0001.xhtml" id="Section0001.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/%E3%82%A2%E3%82%B5%E3%82%AC%E3%82%AA.jpg" id="アサガオ.jpg" media-type="image/jpeg" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="Section0001.xhtml" />
+  </spine>
+  <guide />
+</package>
+
+
+//opf文件是电子书相关文件

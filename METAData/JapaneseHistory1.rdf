@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns=""
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:JapaneseHistory="http://133.5.24.71/JapaneseHistory/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://133.5.24.71/JapaneseHistory/宮中">
+	<rdfs:label>宮中</rdfs:label>
+	<rdfs:comment>https://ja.wikipedia.org/wiki/宮中三殿</rdfs:comment>
+	<foaf:img>https://upload.wikimedia.org/wikipedia/commons/3/38/Three_Palace_Sanctuaries_in_the_Taisho_era.JPG</foaf:img>
+	<rdfs:seeAlso>https://www.youtube.com/watch?v=01lS4_9iryc</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://133.5.24.71/JapaneseHistory/紫宸殿">
+	<rdfs:label>紫宸殿</rdfs:label>
+	<rdfs:comment>https://ja.wikipedia.org/wiki/紫宸殿</rdfs:comment>
+	<foaf:img>https://ja.wikipedia.org/wiki/紫宸殿#/media/File:Kyoto-gosho_Shishinden_zenkei-5.jpg</foaf:img>
+	<rdfs:seeAlso>https://www.youtube.com/watch?v=FlS79faiQrw</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://133.5.24.71/JapaneseHistory/陣座">
+	<rdfs:label>陣座</rdfs:label>
+	<rdfs:comment>https://ja.wikipedia.org/w/index.php?search=陣座&amp;title=特別:検索&amp;go=表示&amp;searchToken=8vb66w8uyb5hf32cfuowu5x6j</rdfs:comment>
+	<foaf:img>http://mosume.cocolog-nifty.com/photos/uncategorized/2012/11/04/img_6438a.jpg</foaf:img>
+	<rdfs:seeAlso>https://www.youtube.com/watch?v=NVKPSb7XQ74</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://133.5.24.71/JapaneseHistory/清涼殿">
+	<rdfs:label>清涼殿</rdfs:label>
+	<rdfs:comment>https://ja.wikipedia.org/wiki/清涼殿</rdfs:comment>
+	<foaf:img>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Kyoto-gosho_Seiryoden_zenkei-2.jpg/1920px-Kyoto-gosho_Seiryoden_zenkei-2.jpg</foaf:img>
+	<rdfs:seeAlso>https://www.youtube.com/watch?v=BJjRkkteFy0</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://133.5.24.71/JapaneseHistory/官奏">
+	<rdfs:label>官奏</rdfs:label>
+	<rdfs:comment>https://ja.wikipedia.org/wiki/太政官奏</rdfs:comment>
+	<foaf:img>https://stat.ameba.jp/user_images/20171223/08/kawamuraissinnkarate/f0/e6/p/o0268018814096315042.png?caw=800</foaf:img>
+	<rdfs:seeAlso>https://www.youtube.com/watch?v=NVKPSb7XQ74</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://133.5.24.71/JapaneseHistory/除目">
+	<rdfs:label>除目</rdfs:label>
+	<rdfs:comment>https://ja.wikipedia.org/wiki/除目</rdfs:comment>
+	<foaf:img>https://blogimg.goo.ne.jp/user_image/69/5a/62678b85af803fb2dbb556ac88804ae5.jpg</foaf:img>
+	<rdfs:seeAlso>https://www.youtube.com/watch?v=NVKPSb7XQ74</rdfs:seeAlso>
+</rdf:Description>
+
+</rdf:RDF>

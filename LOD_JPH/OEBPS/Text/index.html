@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Educational materials authoring tool </title>
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.1.0/pure-min.css" />
+    <link rel="search" href="search.css" />
+    <script type='text/javascript'src='http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyD5H6NWeZehWg4PHrGiOO8akDwMW90ZEn8'></script>
+    <script src="rdfmgr-2.0.0.js"></script>
+    <script src="canvasjs.min.js"></script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="gmap.js"></script>
+    <script type="text/javascript" src="canvas.js"></script>
+    <script type="text/javascript" src="sparql_JapaneseHistory.js"></script>
+
+</head>
+
+<body STYLE="margin: 40px">
+
+<div role="banner">
+    <h1>  Educational Material Development System Based on Linked Data</h1>
+
+    <!--讀懃ｴ｢繝輔か繝ｼ繝� -->
+    <form id="box" method="get" action="#" class="search">
+        <div>
+            <input id = "form" type="text" name="example" value="" class="textBox"><input  type="button" value="Search" class="btn" onclick="collectInfo()">
+        </div>
+    </form>
+    <!--<p>&nbsp;</p>-->
+</div>
+
+<!--pure.css繧堤畑縺�縺ｦ繧ｫ繝ｩ繝�繧貞��縺代ｋ -->
+<div id="content" class="pure-g-r">
+
+    <div id="mainContent" class="pure-u-1-2">
+        <div class="inner">
+            <main role="main">
+                <div STYLE="40px 40px 40px; border-style:solid;border-width :1px;
+   width:600px; height:700px; ">
+
+                    <div STYLE ="margin: 40px ">
+
+                        <div id="label" style="background-color: rgb(255, 255, 255); font-family: 'Book Antiqua',serif; font-size: 40px;"></div>
+
+                        <p>&nbsp;</p>
+                        <object id="text" width="100%" height="600px" data="http://www.nhk-ep.com/simages/product_sub_image_03_huge/20527AA.jpg?2.1.6"></object>
+
+                    </div>
+                </div>
+            </main>
+            <!--/ .inner--></div>
+        <!--/ #mainContent--></div>
+
+    <div id="subContent" class="pure-u-1-2">
+        <div STYLE="40px 40px 40px; border-style:solid;border-width :1px;
+   width:600px; height:700px; ">
+            <DIV STYLE="margin: 60px 40px 40px 40px">
+
+                <div style="text-align: center;"><img id="image" alt="JapaneseHistory" src="init.png"  width="350" height="250" /></div>
+                <div align="center">
+                    <input  type="button" value="Back" class="btn" onclick="img_prev()">
+                    <input  type="button" value="Next" class="btn" onclick="img_next()">
+                </div>
+            </div>
+
+            <!--html/youtube-->
+            <div style="text-align: center;">
+
+                <iframe id="video" width="350" height="250"
+                        src = "https://www.youtube.com/embed/nACB2Itd7uQ">
+                </iframe>
+
+            </div>
+
+            <div Align= "center">
+                <input  type="button" value="back" class="btn" onclick="video_prev()">
+                <input  type="button" value="next" class="btn" onclick="video_next()">
+            </div>
+
+
+        </div>
+
+    </DIV>
+    <!--/ #subContent--></div>
+<!--/ #content--></div>
+
+
+
+
+</body>
+</html>
